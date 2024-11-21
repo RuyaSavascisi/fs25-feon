@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="92" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+    <author>Beaver Bois Modding</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Fertilize Once</en>
+        <de>Einmal Düngen</de>
+    </title>
+
+    <description>
+<en><![CDATA[
+Description: Provides a double application rate option for any fertilizer and enables it by default. It also removes the speed penalty that is otherwise applied during double application.
+GitHub link: https://github.com/Beaver-Bois-Modding/fs25-feon
+]]></en>
+<de><![CDATA[
+Beschreibung: Bietet eine Option für die doppelte Ausbringungsrate für jeden Dünger und aktiviert diese standardmäßig. Außerdem wird die Geschwindigkeitsstrafe entfernt, die ansonsten bei doppelter Ausbringung angewendet wird.
+GitHub-Link: https://github.com/Beaver-Bois-Modding/fs25-feon
+]]></de>
+    </description>
+
+    <iconFilename>icon_fertilizeOnce.dds</iconFilename>
+
+    <multiplayer supported="true"/>
+
+    <specializations>
+        <specialization name="feonSprayer" className="FeonSprayer" filename="scripts/vehicles/specializations/FeonSprayer.lua"/>
+    </specializations>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/main.lua"/>
+    </extraSourceFiles>
+</modDesc>
