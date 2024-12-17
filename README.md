@@ -1,7 +1,7 @@
 # Fertilize Once
 
 ![For Farming Simulator 25](https://img.shields.io/badge/Farming_Simulator-25-AAC717?style=for-the-badge)
-![Current Release: 1.0.0.0](https://img.shields.io/badge/Current_Release-1.0.0.0-AAC717?style=for-the-badge)
+![Current Release: unreleased](https://img.shields.io/badge/Current_Release-unreleased-AAC717?style=for-the-badge)
 
 Provides a double application rate option for any fertilizer and enables it by default. It also removes the speed penalty that is otherwise applied during double application.
 
